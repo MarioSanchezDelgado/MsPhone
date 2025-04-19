@@ -5,4 +5,7 @@ plugins {
     alias(libs.plugins.kotlin.compose) apply false
     kotlin("jvm") version "2.1.20"
     kotlin("plugin.serialization") version "2.1.20"
+
+    id("com.google.devtools.ksp") version "2.0.21-1.0.27" apply false
+    id("androidx.room") version "$room_version" apply false
 }
