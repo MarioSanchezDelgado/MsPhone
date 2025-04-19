@@ -40,7 +40,7 @@ android {
     buildFeatures {
         compose = true
     }
-
+    
     room {
         schemaDirectory("$projectDir/schemas")
     }
